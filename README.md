@@ -1,8 +1,7 @@
 # Nature Research Code & Software Submission Package — SRP
 
 This package contains everything required by the *Nature Research Code
-and Software Submission Checklist* (see `nr-software-policy.pdf` in
-the parent directory) for the manuscript's SRP (Spatial + Radiomics ->
+and Software Submission Checklist* for the SRP (Spatial + Radiomics ->
 Fusion) pipeline.
 
 **Start here:**
