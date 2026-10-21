@@ -1,4 +1,4 @@
-# Nature Research Code & Software Submission Package — SRP
+# Spatial Radiomics Profiling — SRP
 
 This package contains everything required by the *Nature Research Code
 and Software Submission Checklist* for the SRP (Spatial + Radiomics ->
