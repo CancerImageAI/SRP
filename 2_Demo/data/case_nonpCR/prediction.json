@@ -1,0 +1,7 @@
+{
+  "true_label": "Non-pCR",
+  "spatial_probability": 0.6836,
+  "radiomics_probability": 0.4659,
+  "fused_probability": 0.6183,
+  "predicted_risk_group": "High-risk (predicted Non-pCR)"
+}

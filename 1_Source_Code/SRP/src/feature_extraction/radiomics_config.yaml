@@ -1,0 +1,46 @@
+imageType:
+  Original: {}
+  # LoG:
+  #   sigma: [1.0, 2.0, 3.0]  # Laplacian of Gaussian filters
+  # Wavelet: {}              # Wavelet filter
+
+featureClass:
+  shape:
+  firstorder:
+  glcm:
+    - 'Autocorrelation'
+    - 'JointAverage'
+    - 'ClusterProminence'
+    - 'ClusterShade'
+    - 'ClusterTendency'
+    - 'Contrast'
+    - 'Correlation'
+    - 'DifferenceAverage'
+    - 'DifferenceEntropy'
+    - 'DifferenceVariance'
+    - 'JointEnergy'
+    - 'JointEntropy'
+    - 'Imc1'
+    - 'Imc2'
+    - 'Idm'
+    - 'Idmn'
+    - 'Id'
+    - 'Idn'
+    - 'InverseVariance'
+    - 'MaximumProbability'
+    - 'SumEntropy'
+    - 'SumSquares'
+  glrlm:
+  glszm:
+  gldm:
+  ngtdm:
+
+setting:
+  preCrop: True
+  binWidth: 25
+  resampledPixelSpacing: [1, 1, 1]  # Resampling handled by PyRadiomics
+  interpolator: 'sitkBSpline'
+  label: 1
+  # normalize: True
+  # normalizeScale: 100
+  padDistance: 5

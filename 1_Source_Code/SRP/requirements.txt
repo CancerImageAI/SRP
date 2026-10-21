@@ -1,0 +1,43 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+statsmodels
+joblib
+tqdm
+six
+openpyxl
+
+# Medical imaging / radiomics
+SimpleITK
+nibabel
+pyradiomics
+scikit-image
+
+# Spatial statistics (Moran's I etc., used in spatial texture/heterogeneity features)
+esda
+libpysal
+networkx
+
+# Classification / imbalance handling
+xgboost
+imbalanced-learn
+
+# Survival analysis
+lifelines
+
+# Plot label placement (volcano plots)
+adjustText
+
+# RNA-seq differential expression / pathway enrichment
+pydeseq2
+gseapy
+
+# Graph neural network branch (src/graph_neural_network/) -- optional,
+# only required if you use the FMCIB-embedding + GNN classification path
+torch
+torch-geometric
+fmcib
